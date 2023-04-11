@@ -20,5 +20,7 @@ setnames(eg, old = "date", new = "image_id")    #Change the name of the column t
                                                 #This id will be pasted into the file name of each image
 
 #Run the function 
-download.images(dat = eg, file.path = "../../local-git/")
-#The file path name is going to 
+download.images(dat = eg, file.path = "C:/Workspace/") 
+
+#This example of a file path name is meant to be universal for example purposes, but ideally you would be using a 
+#file path name within a R project, e.g., "Data/cameras/"
