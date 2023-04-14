@@ -23,7 +23,7 @@
 #This can be done using the 'setnames' function in data.table - see the download_images example script
 
 #Any of these characters \ / : * ? " < > | in the "location" or "image_id" columns 
-# will be automatically replaced with "_" because they will cause errors
+#will cause errors and are thereforeautomatically replaced with "_" 
 
 
 # FUNCTION ----------------------------------------------------------------
