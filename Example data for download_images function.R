@@ -1,5 +1,5 @@
 #Example of how to download images from Wildtrax using the 'download_images' function 
-  #see separate script to load the function and see additional details
+  #see separate "download_images_function" script to load the function and see additional details
 
 #load data.table
 library(data.table)
