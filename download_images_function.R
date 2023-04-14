@@ -20,7 +20,7 @@
 
 #The 'dat' data table MUST HAVE 3 columns named "location", "image_url", and "image_id" for the columns containing the 
 #camera location names, image URLs, and image IDs, respectively
-#This can be done using the 'setnames' function in data.table - see the example script for this function.
+#This can be done using the 'setnames' function in data.table - see the download_images example script
 
 #Any of these characters \ / : * ? " < > | in the "location" or "image_id" columns 
 # will be automatically replaced with "_" because they will cause errors
