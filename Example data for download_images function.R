@@ -4,7 +4,7 @@
 #load data.table
 library(data.table)
 
-#Create example data using stock image URLs
+#Create example data using stock image URLs 
 eg <- data.table(camera_site = c("A1", "A2", "A2", "A3"), 
                  `image_url(admin only)` = c("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
                                              "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
