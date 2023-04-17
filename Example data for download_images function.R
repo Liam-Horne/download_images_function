@@ -5,6 +5,7 @@
 # Last Updated: April 17, 2023
 
 #load data.table
+#install.packages("data.table")
 library(data.table)
 
 #Create example data using stock image URLs 

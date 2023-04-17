@@ -15,9 +15,7 @@ Last Updated: April 17, 2023
 
 # IMPORTANT NOTES 
 
-This function depends on "data.table" and "httr". These dependencies are installed by the download_images function, but you will still have to install "data.table" if you want to run the code to change column names in the download_images example script.
-install.packages("data.table")
-library(data.table)
+This function depends on "data.table" and "httr" packages. These dependencies are installed by the download_images function, but you will still have to install "data.table" if you want to run the code to change column names following the download_images example script.
 
 The 'dat' data table MUST HAVE 3 columns named "location", "image_url", and "image_id" for the columns containing the camera location names, image URLs, and image IDs, respectively.
 This can be done using the 'setnames' function in "data.table" - see the download_images example script.
