@@ -1,4 +1,4 @@
-#Example of how to download images from Wildtrax using the 'download_images' function 
+#Example of how to download images from Wildtrax using the "download.images" function 
   #see separate "download_images_function" script to load the function and see additional details
 
 ## Author: Liam Horne
@@ -24,7 +24,8 @@ setnames(eg, old = "image_url(admin only)", new = "image_url")    #Change the na
 setnames(eg, old = "date", new = "image_id")    #Change the name of the column that has your image id info (e.g., date) to "image_id" 
                                                 #This id will be pasted into the file name of each image
 
-#Run the function, which simultaneously downloads the images and saves the output of any non-working URLs
+#Run the function. NOTE if you want to save the info for any URLs that don't work, you must save the download.images output.
+#Otherwise, the images with a broken URL will just be skipped.
 badURLs<-download.images(dat = eg, file.path = "C:/Workspace/") 
 
 #This example of a file path name is meant to be universal for example purposes, but ideally you would be using a 
